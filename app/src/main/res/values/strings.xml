@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Menu -->
+    <string name="Acercade">Acerca de…</string>
+    <string name="AcercadeJosera" translatable="false">\@JoseRa\nSeptiembre 2017\nquistabenasque@gmail.com</string>
+    <string name="app_name">NACOs</string>
+    <string name="version">Versión</string>
+    <!-- Fin Menu-->
+
+    <!-- Nombres NACOs -->
+    <string name="dabigatran">Dabigatran</string>
+    <string name="rivaroxaban">Rivaroxaban</string>
+    <string name="apixaban">Apixaban</string>
+    <string name="edoxaban">Edoxaban</string>
+    <string name="web_guias_esc"><a href="https://goo.gl/PWQoCP">Guias ESC Fibrilación Auricular.</a></string>
+    <!-- Fin Nombres NACOs -->
+
+    <!-- Dabigatran -->
+    <string name="riesgo_hemorr_gico_alto">Riesgo hemorrágico alto</string>
+    <string name="igual_de_80_a_os"><![CDATA[> ó igual de 80 años]]></string>
+    <string name="aclaramiento_de_creatinina_30_50_ml_h">Aclaramiento de Creatinina 30 &#8211;50 ml/min/1,73m2</string>
+    <string name="tratamiento_simult_neo_con_verapamilo">Tratamiento simultáneo con Verapamilo</string>
+    <string name="contrindicado_en_funci_n_renal_inferior_a_30_ml_h">Contraindicado en:\n- Función renal inferior a 30 ml/min/1,73m2.\n
+    - Prótesis mecánicas cardíacas.\n- Hipersensibilidad al fármaco.\n- Hemorragia activa.\n- Riesgo de sangrado mayor.\n- Insuficiencia hepática.</string>
+    <string name="_150mg_cada_12_horas">150 mg cada 12 horas</string>
+    <string name="_110mg_cada_12">110 mg cada 12 horas</string>
+    <string name="_150_110_cada_12">150 mg ó 110 mg cada 12 horas. Individualizar.</string>
+    <string name="verapamilo">\n\n- Administrar simultáneamente Verapamil y Dabigatrán</string>
+    <string name="entre_75_y_80_a_os">Entre 75 y 80 años.</string>
+    <string name="strTag11">\tUlcus gástrico activo o reciente.\n\t Neoplasias con alto riesgo de sangrado.\n\t Traumatismo cerebral o espinal reciente, etc.</string>
+
+    <!-- Fin Dabigatran -->
+
+    <!-- Rivaroxaban -->
+    <string name="funcion_rivaroxaban">Función renal entre 15 y 49 ml/min/1,73m2</string>
+    <string name="_20_rivaroxaban">20 mg cada 24 horas</string>
+    <string name="_15_rivaroxaban">15 mg cada 24 horas</string>
+    <string name="rivaroxaban_alimento">Debe tomarse siempre con alimento en el estómago para su adecuada absorción.</string>
+    <string name="rivaroxaban_comentario">Contraindicado en:\n- Función renal inferior a 15 ml/min/1,73m2.\n
+    - Prótesis mecánicas cardíacas.\n- Hipersensibilidad al fármaco.\n- Hemorragia activa.\n- Riesgo de sangrado mayor.\n- Insuficiencia hepática</string>
+    <!-- Vale para Rivaroxaban, Edoxaban y Apixabn -->
+    <!-- Fin Rivaroxaban -->
+
+    <!-- Edoxaban -->
+    <string name="funcion_edoxaban">Aclaramiento de creatinina entre 15 y 50 ml/min/1,73m2</string>
+    <string name="bajopeso_edoxaban">Peso menor o igual a 60 kg</string>
+    <string name="inhibidores_edoxaban">Toma de inhibidores de la P-gp (Ciclosporina, Dronedarona, Eritromicina, Ketoconazol…)</string>
+    <string name="_60_edoxaban">60 mg cada 24 horas</string>
+    <string name="_30_edoxaban">30 mg cada 24 horas</string>
+
+    <!-- Fin Edoxaban -->
+
+    <!-- Apixaban -->
+    <string name="_5mg_cada_12_horas">5 mg cada 12 horas</string>
+    <string name="_25_cada_12_horas">2,5 mg cada 12 horas</string>
+    <string name="ochenta_a">Mayor de 80 años</string>
+    <string name="menos60_a">Menos de 60 kg</string>
+    <string name="creatinina15_a">Creatinina mayor de 1,5 mg/dl</string>
+    <string name="funcion_apixaban">Aclaramiento de Creatinina entre 15 y 29 ml/min/1,73m2</string>
+    <string name="strTag10">Deben cumplirse al menos dos de los tres criterios</string>
+    <!-- Fin Apixaban -->
+
+    <!-- Fecha -->
+    <string name="strAlerta">Alerta</string>
+    <string name="strPasado_fecha">Programa pasado de fecha.\nContactar con el programador</string>
+    <string name="strFormato_fecha" translatable="false">dd/MM/YYYY</string>
+    <string name="strFecha_fin" translatable="false">1/10/2022</string>
+    <!-- Fin Fecha -->
+t
+    <!-- Acerca de... -->
+    <string name="strAyuda1">\tLa dosis adecuada de los Anticoagulantes de Acción Directa varía en cada uno de ellos en función de distintas condiciones (edad, función renal, peso, etc.).</string>
+    <string name="strAyuda2">\tEsta aplicación nos permite ajustar la dosis de los mismos de forma individual teniendo en cuenta las características del paciente que cada uno de ellos recomienda.</string>
+    <string name="strAceptar">Aceptar</string>
+    <!-- Fin Acerca de.. -->
+
+</resources>

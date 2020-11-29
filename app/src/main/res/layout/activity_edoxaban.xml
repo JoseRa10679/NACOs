@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_EDO"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginStart="@dimen/cero_dp"
+        android:layout_marginEnd="@dimen/cero_dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:paddingEnd="@dimen/cincuenta"
+        app:navigationIcon="@mipmap/ic_launcher"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            android:gravity="center"
+            android:text="@string/edoxaban"
+            android:textAlignment="center"
+            android:textColor="@color/colorRojoTexto"
+            android:textSize="20sp"
+            android:theme="?attr/actionBarTheme" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorLightBlue"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/veinte">
+
+            <CheckBox
+                android:id="@+id/funcion_renal_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/funcion_edoxaban" />
+
+            <CheckBox
+                android:id="@+id/bajo_peso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diez"
+                android:text="@string/bajopeso_edoxaban" />
+
+            <CheckBox
+                android:id="@+id/inhibidores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diez"
+                android:text="@string/inhibidores_edoxaban" />
+
+            <TextView
+                android:id="@+id/resultado_e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/_60_edoxaban"
+                android:textColor="@color/colorDarkGreen"
+                android:textSize="@dimen/dieciocho"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/comentarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/catorce"
+                android:text="@string/rivaroxaban_comentario"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/catorce"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

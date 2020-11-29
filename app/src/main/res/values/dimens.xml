@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="diez">10sp</dimen>
+    <dimen name="catorce">14sp</dimen>
+    <dimen name="dieciocho">18sp</dimen>
+    <dimen name="veinte">20sp</dimen>
+    <dimen name="veintidos">22sp</dimen>
+    <dimen name="treinta">30sp</dimen>
+    <dimen name="cuarenta">40sp</dimen>
+    <dimen name="sesenta">60sp</dimen>
+    <dimen name="doce">12sp</dimen>
+    <dimen name="ochenta">80sp</dimen>
+    <dimen name="cero_dp">0dp</dimen>
+    <dimen name="cincuenta">50dp</dimen>
+
+</resources>
